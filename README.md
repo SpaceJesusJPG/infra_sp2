@@ -38,14 +38,14 @@ cd infra_sp2/infra
 
 Собрать контейнер, выполнить миграции и собрать статику:
 
-'''
+```
 docker-compose up
-'''
+```
 
-'''
+```
 docker-compose exec web python manage.py migrate
-'''
+```
 
-'''
+```
 docker-compose exec web python manage.py collectstatic --no-input
-'''
+```
