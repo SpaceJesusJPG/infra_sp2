@@ -49,3 +49,6 @@ docker-compose exec web python manage.py migrate
 ```
 docker-compose exec web python manage.py collectstatic --no-input
 ```
+
+### Автор:
+* [Никита Гладышев](https://github.com/SpaceJesusJPG)
